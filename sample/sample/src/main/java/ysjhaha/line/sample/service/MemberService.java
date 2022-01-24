@@ -1,4 +1,4 @@
 package ysjhaha.line.sample.service;
 
-public class MemberService {
+public interface MemberService {
 }
