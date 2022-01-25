@@ -1,0 +1,6 @@
+rootProject.name = 'operation_systems'
+include 'forpms'
+include 'forcms'
+include 'forbwi'
+include 'forexp'
+include 'forwith'
