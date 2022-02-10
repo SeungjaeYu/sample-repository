@@ -4,3 +4,5 @@ include 'forcms'
 include 'forbwi'
 include 'forexp'
 include 'forwith'
+include 'forjpa'
+

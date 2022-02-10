@@ -6,6 +6,7 @@ import org.springframework.context.annotation.Configuration;
 import ysjhaha.line.bwiannotation.BWIAnnotation;
 import ysjhaha.line.cmsannotation.CMSAnnotation;
 import ysjhaha.line.expannotation.EXPAnnotation;
+import ysjhaha.line.jpannotation.JPAAnnotation;
 import ysjhaha.line.operation_systems.StarterAnnotation;
 import ysjhaha.line.pmsannotation.PMSAnnotation;
 import ysjhaha.line.withannotation.WITHAnnotation;
@@ -18,6 +19,7 @@ import ysjhaha.line.withannotation.WITHAnnotation;
 @EXPAnnotation
 @PMSAnnotation
 @WITHAnnotation
+@JPAAnnotation
 @EnableAutoConfiguration
 public class BusinessContext {
 }
