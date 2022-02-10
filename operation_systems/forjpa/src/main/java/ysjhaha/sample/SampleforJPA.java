@@ -69,10 +69,9 @@ public class SampleforJPA {
             Calendar cal2 = Calendar.getInstance();
             cal1.setTime(startDate);
             cal2.setTime(endDate);
-            cal2.add(Calendar.DATE, -1);
 
             
-            while(cal1.compareTo(cal2) <= 0) {
+            while(cal1.compareTo(cal2) < 0) {
                 RoomRate roomRate = new RoomRate();
                 roomRate.setRsvnNo(rsvnDTL.getRsvnNo());
                 roomRate.setRsvnSeqNo(rsvnDTL.getRsvnSeqNo());
