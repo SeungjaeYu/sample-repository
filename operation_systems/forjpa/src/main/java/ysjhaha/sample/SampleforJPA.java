@@ -76,13 +76,13 @@ public class SampleforJPA {
                 roomRate.setRsvnNo(rsvnDTL.getRsvnNo());
                 roomRate.setRsvnSeqNo(rsvnDTL.getRsvnSeqNo());
                 roomRate.setLodgDate(sdf.format(cal1.getTime()));
-                roomRate.setRsvnStatusCode(rsvnMST.getRsvnStatusCode());
+                roomRate.setRsvnStatusCode(rsvnDTL.getRsvnStatusCode());
                 roomRate.setRoomTypeCode(rsvnDTL.getRoomTypeCode());
                 roomRate.setRoomFee(rsvnDTL.getRoomFee());
                 roomRate.setFirstRegDt(new Date());
                 roomRate.setLastUpdDt(new Date());
-                cal1.add(Calendar.DATE,1);
                 entityManager.persist(roomRate);
+                cal1.add(Calendar.DATE,1);
             }
 
 
